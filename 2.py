@@ -1,0 +1,17 @@
+S,D=5,3
+Text="Surajit"
+print(S*Text*D)
+#2
+a=12
+b=5
+print(a/b)
+print(a//b)
+print(a%b)
+c=-12
+d=5
+print(c//d)
+print(c%d)
+c=12
+d=-5
+print(c//d)
+print(c%d)

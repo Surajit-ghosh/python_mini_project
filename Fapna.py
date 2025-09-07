@@ -1,0 +1,10 @@
+str="i am learning python from apna college from"
+#a=str.startswith("i")
+a=str.endswith("ge")
+print(a)
+b=str.capitalize()
+print(b)
+print(str.replace("o","a"))
+print(str.replace("a","o"))
+print(str.find("python"))
+print(str.count("from"))
