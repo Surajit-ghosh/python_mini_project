@@ -1,6 +1,7 @@
 def checker(x):
     import random
     computer=random.randrange(1,101)
+    
     if (x>computer):
       print("Computer number is ",computer)
       print("Your number is too high")
@@ -9,7 +10,8 @@ def checker(x):
       print("Your number is too high")
     elif(x==computer):
       print("Computer number is ",computer)
-      print("Your enter number is equal to computer number")      
+      print("Your enter number is equal to computer number")  
+
 while True:      
   p=int(input("Enter 1 for continue and 0 for stop : "))
   if(p==1):
